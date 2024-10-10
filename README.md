@@ -74,7 +74,7 @@ https://github.com/JingyunLiang/SwinIR
 
 # FAQ
 
-(Based on real questions I have recieved at university)
+(Based on questions I have received at university)
 
 **Q: Why is there no source code?**
 
