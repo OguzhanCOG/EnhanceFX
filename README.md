@@ -5,11 +5,11 @@ Version: 5.1.7
 EnhanceFX V Evolution Prestige is a hybrid super-resolution model crafted in PyTorch. It utilises a combination of techniques found in DRCT and ESRGAN, alongside other optimisations to deliver sharp 16x upscaling, designed to extract both global and fine details effectively.
 
 # Strengths
-💡 Hybrid Super-Resolution Architecture: Combines Swin Transformers, RRDBs, and MSFE for great 16x upscaling.
-🧠 Self-Attention Mechanisms: Transformer blocks help with contextual long-term detail preservation, aiding feature reconstruction.
-⚡ Fast Fourier and Wavelet Frequency Blocks: Enhanced frequency-domain processing to mitigate noise artefacts.
-🎯 1990/600 Million Parameters: Optimally tuned for both Generator (G) and Discriminator (D) power equality.
-✨ Distributed PixelShuffle upsampler.
+- 💡 Hybrid Super-Resolution Architecture: Combines Swin Transformers, RRDBs, and MSFE for great 16x upscaling.
+- 🧠 Self-Attention Mechanisms: Transformer blocks help with contextual long-term detail preservation, aiding feature reconstruction.
+- ⚡ Fast Fourier and Wavelet Frequency Blocks: Enhanced frequency-domain processing to mitigate noise artefacts.
+- 🎯 1990/600 Million Parameters: Optimally tuned for both Generator (G) and Discriminator (D) power equality.
+- ✨ Distributed PixelShuffle upsampler.
 
 # Model Architecture
 
