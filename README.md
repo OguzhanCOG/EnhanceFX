@@ -68,9 +68,10 @@ https://imgsli.com/MzAwNDM2
 This architecture is actively being developed, and the images linked are early-stage results. Final performance and output quality may improve with ongoing research and optimisations.
 
 # References
-https://github.com/ming053l/DRCT
-https://github.com/xinntao/ESRGAN
-https://github.com/JingyunLiang/SwinIR
+https://github.com/ming053l/DRCT,
+https://github.com/xinntao/ESRGAN,
+https://github.com/JingyunLiang/SwinIR,
+https://github.com/Fanghua-Yu/SUPIR (Diffusion bridger network)
 
 # FAQ
 
