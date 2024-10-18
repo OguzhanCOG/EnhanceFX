@@ -79,7 +79,7 @@ https://github.com/Fanghua-Yu/SUPIR (Diffusion bridger network)
 
 **Q: Why is there no source code?**
 
-A: Unlike NeuralWorks and NeuralWorksCustom, I’ve chosen not to make the source code public for collaboration at this time. This decision is primarily for IP protection due to novelty, and I want to further research and refine the model before releasing anything. Academic publications are definitely on the horizon, but for now, I’m focused on ensuring that NeuralFusionII reaches its full potential before making it publicly available.
+A: Unlike NeuralWorks and NeuralWorksCustom, I’ve chosen not to make the source code public for collaboration at this time. This decision is primarily for IP protection due to novelty, and I want to further research and refine the model before releasing anything. Academic publications are definitely on the horizon, but for now, I’m focused on ensuring that EnhanceFX reaches its full potential before making it publicly available.
 
 **Q: Does the complexity of the architecture lead to diminishing returns in performance?**
 
