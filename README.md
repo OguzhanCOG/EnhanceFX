@@ -1,4 +1,4 @@
-# EnhanceFX
+# EnhanceFX: Model Card
 
 Version: 5.1.7
 
