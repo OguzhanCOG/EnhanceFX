@@ -8,16 +8,20 @@ EnhanceFX V Evolution Prestige is a hybrid super-resolution model crafted in PyT
 - 💡 Hybrid Super-Resolution Architecture: Combines Swin Transformers, RRDBs, and MSFE for great 16x upscaling.
 - 🧠 Self-Attention Mechanisms: Transformer blocks help with contextual long-term detail preservation, aiding feature reconstruction.
 - ⚡ Fast Fourier and Wavelet Frequency Blocks: Enhanced frequency-domain processing to mitigate noise artefacts.
-- 🎯 1990/600 Million Parameters: Optimally tuned for both Generator (G) and Discriminator (D) power equality.
+- 🎯 1990/600 Million Parameters: Optimally tuned for both Generator (G) and Discriminator (D) power equality. (Parameter count can change significantly depending on # of RRDBs and Attention blocks, etc.)
 - ✨ Distributed PixelShuffle upsampler.
 
 # Model Architecture
 
 **Hybrid Generator (G)**
 
+---
+**CORE**
+---
+
 Modified ESRGAN-style (5C):
-- 96 Residual in Residual Dense Blocks (RRDBs), each composed of 3 Residual Blocks.
-- 12 Seperate Dense Residual Blocks featuring deformable convolutions.
+- Residual in Residual Dense Blocks (RRDBs), each composed of 3 Residual Blocks.
+- Seperate Dense Residual Blocks featuring deformable convolutions.
 
 Modified DRCT-style:
 - Split Dual Swin Transformer Trunks: RoPE-enabled, KAN-modified MLPs for deep feature generation and long-term consistency.
@@ -28,7 +32,11 @@ Additions:
 - PixelShuffle (FBGEMM) 8 * 2x sparse staggered upampling blocks with feedback loop (2 between each trunk, step-by-step resolution enhancement).
 - Globalised and transitive Skip Connections to link deep trunks.
 
-Attention Blocks include:
+---
+**GLOBAL ADDITIONS**
+---
+
+Attention and Misc. Blocks include:
 - Spectral
 - Channel (from DRCT)
 - CAB (from DRCT)
@@ -38,6 +46,10 @@ Attention Blocks include:
 - Axial
 - Region
 - Spatial
+- Frequency (Fast Fourier (FFT) & Wavelet Transform)
+- Squeeze-Excite
+
+**DISCLAIMER: Attention and other blocks can be deactivated and reactivated on demand, by commenting out the respective blocks. Having all blocks activated is INCREDIBLY expensive and while not tested so far, it doesn't guarantee a superior model architecture!!!**
 
 Activation Functions: LeakyReLU, GELU, and sparse SwiGLU for adaptive activation.
 
@@ -62,16 +74,20 @@ Impressive results so far, with improvements still in progress:
 - Issues to Address: Vanishing gradients, ISO-style noise artefacts from FFT, and colour leaks between transformers.
 - Proposed Fixes: Recursive block interconnects (as a modification or addition to the existing dense ones) improve transformer coordination by promoting better gradient flow and effective communication between layers.
 
+**Diffusion based post-processing**
+
+A final diffusion based model can be used to bridge the gap between the output of EnhanceFX and the GT, given the outputs without post-processing are fairly high quality. Current systems use a single type of model, where using the expertise of an initial Conv/Xformer based model and the refining/style shifting abilities of a diffusion network would be more logical in tackling the shared goal of image restoration.
+
 # Images
 https://imgsli.com/MzAwNDM2
 
 This architecture is actively being developed, and the images linked are early-stage results. Final performance and output quality may improve with ongoing research and optimisations.
 
-# References
-https://github.com/ming053l/DRCT,
-https://github.com/xinntao/ESRGAN,
-https://github.com/JingyunLiang/SwinIR,
-https://github.com/Fanghua-Yu/SUPIR (Diffusion bridger network)
+# References & Motivation Source
+- https://github.com/ming053l/DRCT,
+- https://github.com/xinntao/ESRGAN,
+- https://github.com/JingyunLiang/SwinIR,
+- https://github.com/Fanghua-Yu/SUPIR (Diffusion bridger network)
 
 # FAQ
 
@@ -79,7 +95,7 @@ https://github.com/Fanghua-Yu/SUPIR (Diffusion bridger network)
 
 **Q: Why is there no source code?**
 
-A: Unlike NeuralWorks and NeuralWorksCustom, I’ve chosen not to make the source code public for collaboration at this time. This decision is primarily for IP protection due to novelty, and I want to further research and refine the model before releasing anything. Academic publications are definitely on the horizon, but for now, I’m focused on ensuring that EnhanceFX reaches its full potential before making it publicly available.
+A: Unlike NeuralWorks and NeuralWorksCustom, I’ve chosen not to make the source code public for collaboration at this time. This decision is primarily for IP protection due to novelty, and I want to further research and refine the model before releasing anything. Academic publications are definitely on the horizon when time permits, but for now, I’m focused on ensuring that EnhanceFX reaches its full potential before making it publicly available.
 
 **Q: Does the complexity of the architecture lead to diminishing returns in performance?**
 
