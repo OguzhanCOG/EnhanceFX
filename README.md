@@ -8,7 +8,7 @@ Version: 5.1.7 & 6.0.1
 
 EnhanceFX™ V Evolution Prestige is a hybrid super-resolution model crafted in PyTorch. It utilises a combination of state-of-the-art techniques, alongside other optimisations and novelties to deliver outstandingly sharp 16x upscaling, designed to extract both global and fine details effectively, while adding in contextual detail.
 
-EnhanceFX™ VI QuantumPowerHDR builds on V, introducing quantum processing, HDR support and additional features to be presented soon.
+EnhanceFX™ VI QuantumPowerHDR builds on V, introducing quantum processing, HDR support and additional (secret) features to be revealed soon.
 
 # Strengths
 - 💡 Hybrid Super-Resolution Architecture: Combines Transformers and RRDBs for great 16x upscaling.
