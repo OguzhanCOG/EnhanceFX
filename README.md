@@ -8,7 +8,7 @@ Version: 5.1.7 & 6.0.1
 
 EnhanceFX™ V Evolution Prestige is a hybrid super-resolution model crafted in PyTorch. It utilises a combination of state-of-the-art techniques, alongside other optimisations and novelties to deliver outstandingly sharp 16x upscaling, designed to extract both global and fine details effectively, while adding in contextual detail.
 
-EnhanceFX™ VI doesn’t just upscale – it *understands*. With its cutting-edge hybrid architecture, it takes the time to *think*, analysing the domain, color dynamics, and semantic cues before *perfecting* every detail. Powered by the the ‘ViRAU’ dynamic activation function, multiple enhanced attention heads, and a SotA, razor-sharp, ultra-noiseless hybrid Transformer core, EnhanceFX™ VI learns and adapts to your ideal image, delivering outstanding results. Tested against the ***best***, it marks the revolution of smart image upscaling, ensuring precise, detailed, and lifelike enhancement. [1]
+EnhanceFX™ VI doesn’t just upscale – it *understands*. With its cutting-edge quantum architecture, it takes the time to *think*, analysing the domain, color dynamics, and semantic cues before *perfecting* every detail. Powered by the the ‘ViRAU’ dynamic activation function, multiple enhanced attention heads, and a SotA, razor-sharp, ultra-noiseless hybrid Transformer core, EnhanceFX™ VI learns and adapts to your ideal image, delivering outstanding results. Tested against the ***best***, it marks the revolution of smart image upscaling, ensuring precise, detailed, and lifelike enhancement. [1]
 
 ## Strengths
 - 💡 Hybrid Super-Resolution Architecture: Combines Transformers and RRDBs for great 16x upscaling.
