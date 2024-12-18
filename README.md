@@ -25,7 +25,13 @@ Impressive results so far, with improvements still in progress:
 - Proposed Fixes: Recursive block interconnects (as a modification or addition to the existing blocks) improve transformer coordination by promoting better gradient flow and effective communication between layers.
 
 # Images
-https://imgsli.com/MzAwNDM2
+<p align="center">
+  <img src="Images/Comparisons-LinkedIn.png" />
+</p>
+
+Topaz Gigapixel™ 8 @ https://www.topazlabs.com/gigapixel | InvSR @ https://github.com/zsyOAOA/InvSR
+
+EnhanceFX™ V only: https://imgsli.com/MzAwNDM2
 
 This architecture is actively being developed, and the images linked are early-stage results. Final performance and output quality may improve with ongoing research and optimisations.
 
@@ -48,7 +54,6 @@ A: This is a valid point/concern. In reality, I've tried to craft the architectu
 **Q: Would you elaborate more on the architecture specifics?**
 
 A: While I understand this is interesting, as mentioned above, efforts in protecting my IP have been made. Also addressed above is the potential for a formal, academic release.
-
 
 Got any other questions? motions.07-busses@icloud.com
 
