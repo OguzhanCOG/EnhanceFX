@@ -18,11 +18,13 @@ EnhanceFX™ VI doesn’t just upscale – it *understands*. With its cutting-ed
 - ✨ Distributed custom upsampler with novel, activation function designed in-house; 'ViRAU' (VI only).
 
 ## Current Progress
-Based directly on the 8XOne architecture, this is the 5th iteration in development.
+Based directly on the 8XOne architecture, this is the th iteration in development.
 Impressive results so far, with improvements still in progress:
 
 - Issues to Address: Vanishing gradients, ISO-style noise artefacts from FFT, and colour leaks between transformers.
 - Proposed Fixes: Recursive block interconnects (as a modification or addition to the existing blocks) improve transformer coordination by promoting better gradient flow and effective communication between layers.
+
+Update for VI: The issues listed above are due to be rectified.
 
 ## Images
 <p align="center">
