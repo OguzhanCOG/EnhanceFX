@@ -22,8 +22,8 @@ EnhanceFX™ VI doesn’t just upscale – it *understands*. With its cutting-ed
 
 Based directly on the 8XOne architecture, this is the 5/6th iteration in development. Impressive results so far, with improvements still in progress:
 
-- Issues to Address: Vanishing gradients, ISO-style noise artefacts from FFT, and colour leaks between transformers.
-- Proposed Fixes: Recursive block interconnects (as a modification or addition to the existing blocks) improve transformer coordination by promoting better gradient flow and effective communication between layers.
+- Issues to Address: Vanishing gradients, ISO-style noise artefacts, and colour leaks between Transformers.
+- Proposed Fixes: Recursive block interconnects (as a modification or addition to the existing blocks) improve Transformer coordination by promoting better gradient flow and effective communication between layers.
 
 Update for VI: The issues listed above are due to be rectified.
 
@@ -33,7 +33,7 @@ Update for VI: The issues listed above are due to be rectified.
   <img src="Images/Comparisons-LinkedIn.png" />
 </p>
 
-EnhanceFX™ VI with its global semantic context engine accurately identifies the Swallows' Nest and an Audi R8 in the test cases, enabling it to generate highly convincing details that can deceive even top-tier discriminators; sometimes, humans!
+EnhanceFX™ VI with its global semantic context engine accurately identifies the Swallow's Nest and an Audi R8 in the test cases, enabling it to generate highly convincing details that can deceive even top-tier discriminators; sometimes, humans!
 
 Both architectures (V/VI) are actively being developed, and the images are **strictly** early-stage results. Final performance and output quality may improve with ongoing research and optimisations.
 
