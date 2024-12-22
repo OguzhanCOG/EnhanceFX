@@ -2,7 +2,9 @@
   <img src="Logos/EFXBanner.png" />
 </p>
 
-# EnhanceFX™ Series: Model Card
+# EnhanceFX™ Series. Hyper-Quality, Contextual Upscaling.
+
+# Model Card
 
 Version: 5.1.7 & 6.0.1
 
