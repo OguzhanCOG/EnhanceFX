@@ -2,7 +2,7 @@
   <img src="Logos/EFXBanner.png" />
 </p>
 
-# EnhanceFX™ Series. Hyper-Quality, Contextual Upscaling.
+# Hyper-Quality, Contextual Upscaling. The EnhanceFX™ Series.
 
 # Model Card
 
