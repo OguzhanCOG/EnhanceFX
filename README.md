@@ -69,6 +69,14 @@ Cheers!
 
 Please refer to LICENSE.txt.
 
+## Questions?
+
+Feel free to drop me an email and/or connect on LinkedIn.
+
+motions.07-busses@icloud.com
+
+Feedback is always appreciated and will be recognised!
+
 ## Comparison Models, Miscellaneous
 
 - Topaz Gigapixel™ 8 @ https://www.topazlabs.com/gigapixel
