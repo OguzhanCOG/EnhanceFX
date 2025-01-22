@@ -1,0 +1,54 @@
+EnhanceFX™ Proprietary License  
+Copyright © Oguzhan Cagirir, 2024. All rights reserved.  
+
+By using the Software, you agree to the following terms:  
+
+1. License Grant
+
+1.1. Subject to compliance with this agreement, OguzhanCOG grants you a limited, non-exclusive, non-transferable, and revocable license to use the 16x DQTGAN model and related files ("Software") solely for internal, non-commercial purposes.
+
+2. Restrictions
+
+2.1. You may not distribute, sublicense, lease, sell, or rent the Software in any form.
+
+2.2. You may not modify, decompile, disassemble, reverse engineer, or otherwise attempt to derive the source code, algorithms, or underlying structure of the Software.
+
+2.3. The Software may not be used to train competing machine learning models or systems, defined as models or systems designed to perform the same or similar functions as the Software.
+
+2.4. Redistribution of the Software in any manner is forbidden without explicit prior written consent (e.g., email confirmation or signed agreement) from OguzhanCOG.
+
+3. Ownership
+
+3.1. All intellectual property rights in the Software, including but not limited to all 'X-TWiLU', 'ViRAU', logos, architectures and font presentation styles, remain the exclusive property of OguzhanCOG.
+
+4. Liability Disclaimer
+
+4.1. The Software is provided "as is" and "as available," without warranties of any kind, whether express or implied, including but not limited to implied warranties of merchantability, fitness for a particular purpose, and non-infringement. To the fullest extent permitted by applicable law, OguzhanCOG shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to loss of data or profits, arising out of or in connection with the use or inability to use the Software, even if advised of the possibility of such damages.
+
+5. Termination
+
+5.1. This license is terminated immediately upon violation of any terms outlined herein.
+
+5.2. OguzhanCOG may, at its sole discretion, reinstate this license upon satisfactory resolution of the violation.
+
+6. Governing Law
+
+6.1. This agreement has been construed in accordance with the laws of England and Wales.
+
+EnhanceFX™ is a trademark of OguzhanCOG. Trademark registration pending.
+
+Copyright, Designs and Patents Act 1988 (CDPA): Section 1, Section 16, Section 100; Trade Marks Act 1994: Section 1, Section 10, Section 14; Contracts (Rights of Third Parties) Act 1999; Unfair Contract Terms Act 1977; Consumer Rights Act 2015: Section 62, Section 64.
+
+7. Academic Intent and Research Collaboration
+
+7.1. This license acknowledges the importance of technological innovation and academic advancement. The primary objective is to protect the intellectual development of this technology while ultimately contributing to the broader scientific and open source community.
+
+7.2. The restrictive terms are designed as a temporary measure to:
+
+7.2.1. Preserve the integrity of the original research.
+
+7.2.2. Ensure proper attribution to the original creators.
+
+7.2.3. Prevent premature commercialisation or misappropriation of the technology.
+
+7.3. OguzhanCOG anticipates and encourages future collaborative opportunities that will allow this work to be shared responsibly within academic and research circles, with the ultimate goal of advancing technological understanding and innovation.
