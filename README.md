@@ -15,9 +15,12 @@ EnhanceFX™ VI doesn’t just upscale – it understands. It takes the time to 
 ## Strengths
 
 - 💡 Hybrid Super-Resolution Architecture: Combines an advanced hybrid core and proprietary elements for outstanding 16x+ upscaling.
-- 🧠 Intelligent Upscaling:  Provides context-aware detail preservation, adapting to a wide range of image types.
-- 🎯 Optimally Tuned Parameters: Designed for balanced generator and discriminator performance. (Specific parameter counts undisclosed for VI).
+- 🧠 Intelligent Upscaling: Provides context-aware detail generation, adapting to a wide range of image types.
+- 🌈 Quantum-Based HDR Processor: Delivers extended dynamic range with unparalleled, lifelike color fidelity.
+- 🎯 Optimally Tuned Parameters: Designed for balanced generator and discriminator performance. (Specific parameter counts undisclosed for VI)
 - ✨ Novel Dynamic Activation Function: An in-house developed activation function; ‘ViRAU’ (VI only).
+- ⚙️ Hardware-Level Optimisations: Comes with optimised runtimes for superior performance and efficiency.
+- 🛠️ Augmented AD: Dynamic autodifferentiation tailored to ‘ViRAU’.
 
 ## Current Progress
 
