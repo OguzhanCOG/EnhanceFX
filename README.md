@@ -93,6 +93,8 @@ Feedback is always appreciated and will be recognised!
 
 All current repository clones/pulls should be aware of the changes made to the series in light of version 6.0.0 and onwards. V's architecture & card is on track for repo-limited deprecation.
 
+The architectures stand at around 15 billion parameters w/o any modification. This is *not* indicative of performance, and is *not* the size of any test-ready, or working versions of the model series.
+
 Please note that this markdown is more detailed than any other reference to EFXVEP, such as LinkedIn.
 
 © OguzhanCOG: EnhanceFX™ Series, All Rights Reserved.
