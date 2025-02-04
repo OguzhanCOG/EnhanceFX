@@ -20,7 +20,7 @@ EnhanceFX™ VI doesn’t just upscale – it understands. It takes the time to 
 - 🎯 Optimally Tuned Parameters: Designed for balanced generator and discriminator performance. (Specific parameter counts undisclosed for VI)
 - ✨ Novel Dynamic Activation Function: An in-house developed activation function; ‘ViRAU’ (VI only).
 - ⚙️ Hardware-Level Optimisations: Comes with optimised runtimes for superior performance and efficiency.
-- 🛠️ Augmented AD: Dynamic autodifferentiation tailored to ‘ViRAU’.
+- 🛠️ Augmented AD: Dynamic auto-differentiation tailored to ‘ViRAU’.
 
 ## Current Progress
 
