@@ -89,7 +89,7 @@ Feedback is always appreciated and will be recognised!
 
 ## Legal & Notices
 
-[1]: EnhanceFX™ VI builds on V, introducing enhanced HDR support and additional new features to be revealed soon.
+[1]: EnhanceFX™ VI builds on V, introducing enhanced HDR support and additional new features to be revealed soon. MoE, and X billion + parameter size being considered, but this is not certain!!!
 
 All current repository clones/pulls should be aware of the changes made to the series in light of version 6.0.0 and onwards. V's architecture & card is on track for repo-limited deprecation.
 
