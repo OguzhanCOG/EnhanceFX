@@ -10,7 +10,7 @@ Version: 5.1.7 & 6.0.1
 
 EnhanceFX™ V Evolution Prestige is a hybrid super-resolution model crafted in PyTorch. It uses a combination of advanced neural network techniques and proprietary elements to deliver outstandingly sharp 16x upscaling, designed to extract both global and fine details effectively, while intelligently enhancing contextual information.
 
-EnhanceFX™ VI doesn’t just upscale – it understands. It takes the time to think, powered by the ‘ViRAU’ dynamic activation function (5+ years in the making), and an advanced, proprietary *hybrid* Transformer core designed for unmatched *razor-sharp and ultra-noiseless* precision. EnhanceFX™ VI adapts to your ideal image, delivering outstanding results. Tested against leading upscaling solutions, EnhanceFX™ VI marks a leap forward in intelligent image enhancement, ensuring precise, detailed, and lifelike results. [1]
+EnhanceFX™ VI doesn’t just upscale – it understands. It takes the time to think, powered by the ‘ViRAU’ dynamic activation function (5+ years in the making), and an advanced, proprietary *hybrid* Transformer core designed for unmatched *razor-sharp and ultra-noiseless* precision. EnhanceFX™ VI adapts to your ideal image, delivering outstanding results. Tested against leading upscaling solutions, EnhanceFX™ VI marks a leap forward in intelligent image enhancement, ensuring full temporal stability [1], precision, detail, and lifelike results. [2]
 
 ## Strengths
 
@@ -89,7 +89,9 @@ Feedback is always appreciated and will be recognised!
 
 ## Legal & Notices
 
-[1]: EnhanceFX™ VI builds on V, introducing enhanced HDR support and additional new features to be revealed soon. MoE, and X billion+ parameter sizing being considered, but this is not certain!!!
+Footnotes:
+[1]: c. 10/2024; T-12 weeks from Topaz Labs' Starlight announcement.
+[2]: EnhanceFX™ VI builds on V, introducing enhanced HDR support and additional new features to be revealed soon. MoE, and X billion+ parameter sizing being considered, but this is not certain!!!
 
 All current repository clones/pulls should be aware of the changes made to the series in light of version 6.0.0 and onwards. V's architecture & card is on track for repo-limited deprecation.
 
