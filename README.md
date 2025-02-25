@@ -51,7 +51,7 @@ A: Unlike NeuralWorks and NeuralWorksCustom, I’ve chosen not to make the sourc
 
 **Q: Does the complexity of the architecture lead to diminishing returns in performance?**
 
-A: Complex architectures can lead to diminishing returns, especially when the overhead of training time and resource consumption outweighs the benefits. However, experimentation with modular design, ensures the architecture is effective and optimized for efficiency.
+A: Complex architectures can lead to diminishing returns, especially when the overhead of training time and resource consumption outweighs the benefits. However, experimentation with modular design, ensures the architecture is effective and optimised for efficiency.
 
 **Q: This all seems too complicated, unrealistically impossible to train and illegitimate!**
 
@@ -99,5 +99,5 @@ The architectures stand at around 15 billion parameters w/o any modification. Th
 
 Please note that this markdown is more detailed than any other reference to EFXVEP, such as LinkedIn.
 
-© OguzhanCOG: EnhanceFX™ Series, All Rights Reserved.
+© OguhanCOG: EnhanceFX™ Series, All Rights Reserved.
 Refer to the LICENSE.txt file for detailed terms and conditions.
